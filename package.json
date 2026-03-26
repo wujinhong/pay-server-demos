@@ -1,13 +1,15 @@
 {
   "name": "pay-server-demos",
   "version": "0.0.1",
-  "main": "app.js",
+  "main": "./demo/app.js",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:google-pay/pay-server-demos.git"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./demo/index.js",
     "lint": "npm run pretty:check && npm run eslint",
     "eslint": "eslint .",
     "pretty:check": "prettier . --check",
