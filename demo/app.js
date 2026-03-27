@@ -81,7 +81,7 @@ app.post('/gateways/:gateway/orders', (req, res) => {
   const config = configs[req.params.gateway];
 
   if (!client) {
-    res.status(404).send('Not found');
+    res.status(404).send('Not found Polina');
     return;
   }
 
