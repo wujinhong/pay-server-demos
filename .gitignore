@@ -74,4 +74,4 @@ node_modules/
 # Certificates
 *.pem
 
-demo/config.json
+# demo/config.json

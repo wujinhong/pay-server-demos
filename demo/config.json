@@ -1,0 +1,232 @@
+{
+
+  // See PSP's docs for full config details:
+  // https://docs.adyen.com/payment-methods/google-pay/api-only
+  "adyen": {
+    "environment": "TEST", // change for production
+    "apiKey": "",
+    "merchantAccount": "",
+    "clientConfig": {
+      "gateway": "adyen",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://developer.paypal.com/braintree/docs/guides/google-pay/overview
+  "braintree": {
+    "environment": "Sandbox", // change for production
+    "merchantId": "",
+    "publicKey": "",
+    "privateKey": "",
+    "clientConfig": {
+      "gateway": "braintree",
+      "braintree:apiVersion": "v1",
+      "braintree:sdkVersion": "3.76.2",
+      "braintree:merchantId": "",
+      "braintree:clientKey": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://docs.checkout.com/payments/payment-methods/wallets/google-pay
+  "checkoutltd": {
+    "secretKey": "",
+    "publicKey": "",
+    "clientConfig": {
+      "gateway": "checkoutltd",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://docs.cybersource.com/en/payments-tech-docs/googlepay.html
+  // Note the defaults here for cybersource are test values from the cybersource samples/docs
+  "cybersource": {
+    "runEnvironment": "cybersource.environment.SANDBOX", // change for production
+    "merchantID": "",
+    "merchantKeyId": "",
+    "merchantsecretKey": "",
+    "clientConfig": {
+      "gateway": "cybersource",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://developer.squareup.com/docs/payment-form/add-digital-wallets/google-pay
+  "square": {
+    "environment": "Sandbox", // change for production
+    "accessToken": "",
+    "clientConfig": {
+      "applicationId": "",
+      "locationId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://stripe.com/docs/google-pay
+  "stripe": {
+    "secretKey": "",
+    "clientConfig":  {
+      "gateway": "stripe",
+      "stripe:version": "2018-10-31",
+      "stripe:publishableKey": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://docs.datatrans.ch/docs/payment-methods#section-google-pay
+  "datatrans": {
+    "environment": "sandbox", // change for production
+    "password": "",
+    "clientConfig": {
+      "gateway": "datatrans",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://developers.payu.com/en/google_pay.html
+  "payu": {
+    "environment": "test", // empty for production
+    "clientId": "",
+    "clientSecret": "",
+    "merchantPosId": "",
+    "secondKey": "",
+    "clientConfig": {
+      "gateway": "payu",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://help.wayforpay.com/google-pay
+  "wayforpay": {
+    "merchantAccount": "",
+    "secretKey": "",
+    "clientConfig": {
+      "gateway": "wayforpay",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://developer.worldpay.com/docs/wpg/directintegration/quickstart
+  "worldpay": {
+    "merchantCode": "",
+    "newUsername": "",
+    "xmlPassword": "",
+    "url": "https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp",  // change for production
+    "clientConfig": {
+      "gateway": "worldpay",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://dev.solidgate.com/developers/documentation/introduction/Host-to-host-API
+  "solid": {
+    "merchantId": "",
+    "privateKey": "",
+    "url": "https://pay.solidgate.com/api/v1/", // change for testing
+    "clientConfig": {
+      "gateway": "solid",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://docs.spreedly.com/guides/google-pay
+  "spreedly": {
+    "environmentKey": "",
+    "accessSecret": "",
+    "gatewayToken": "",
+    "clientConfig": {
+      "gateway": "spreedly",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://docs.barion.com/Google_Pay
+  "barion": {
+    "environment": "test", // change for production
+    "posKey": "",
+    "clientConfig": {
+      "gateway": "barion",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://www.windcave.com/developer-ecommerce-google-pay
+  "windcave": {
+    "host": "uat", // "sec" for production
+    "username": "",
+    "apiKey": "",
+    "clientConfig": {
+      "gateway": "windcave",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://docs.bepaid.by/ru/google_pay/integration/owncheckout
+  "bepaid": {
+    "shopId": "",
+    "secretKey": "",
+    "clientConfig": {
+      "gateway": "ecomcharge",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://developers.bluesnap.com/reference/google-pay#section-implementing-google-pay-in-your-website
+  "bluesnap": {
+    "host": "sandbox", // "ws" for production
+    "username": "",
+    "password": "",
+    "clientConfig": {
+      "gateway": "bluesnap",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://braspag.github.io/en/manual/ewallets
+  "braspag": {
+    "environment": "sandbox", // empty for production
+    "merchantId": "",
+    "merchantKey": "",
+    "clientConfig": {
+      "gateway": "cielo",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://developers.ecommpay.com/en/pm_googlepay.html
+  "ecommpay": {
+    "projectId": "",
+    "secretKey": "",
+    "clientConfig": {
+      "gateway": "ecommpay",
+      "gatewayMerchantId": ""
+    }
+  },
+
+  // See PSP's docs for full config details:
+  // https://developer.novalnet.de/onlinepayments/aboutgooglepay
+  "novalnet": {
+    "testMode": true, // false for production
+    "paymentAccessKey": "",
+    "apiSignature": "",
+    "tariffId": "",
+    "clientConfig": {
+      "gateway": "novalnet",
+      "gatewayMerchantId": ""
+    }
+  }
+}
